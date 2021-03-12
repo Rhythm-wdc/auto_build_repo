@@ -1,4 +1,4 @@
-FROM busybox
+FROM alpine
 #FROM centos
 
 MAINTAINER wangdongchao@staff.hexun.com
