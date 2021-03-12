@@ -1,4 +1,4 @@
-FROM scratch
+FROM busybox
 #FROM centos
 
 MAINTAINER wangdongchao@staff.hexun.com
