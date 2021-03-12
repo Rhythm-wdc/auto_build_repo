@@ -1,4 +1,5 @@
-FROM centos
+FROM scratch
+#FROM centos
 
 MAINTAINER wangdongchao@staff.hexun.com
 
