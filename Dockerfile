@@ -17,7 +17,9 @@ MAINTAINER wangdongchao@staff.hexun.com
 
 #RUN wget https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip
 
-RUN docker pull registry.docker-cn.com/apachegriffin/griffin_spark2:0.3.0
-RUN docker pull registry.docker-cn.com/apachegriffin/elasticsearch
-RUN docker pull registry.docker-cn.com/apachegriffin/kafka
-RUN docker pull zookeeper:3.5 
+#RUN docker pull registry.docker-cn.com/apachegriffin/griffin_spark2:0.3.0
+#RUN docker pull registry.docker-cn.com/apachegriffin/elasticsearch
+#RUN docker pull registry.docker-cn.com/apachegriffin/kafka
+#RUN docker pull zookeeper:3.5 
+
+RUN docker pull apache/incubator-doris:build-env-1.3.1
