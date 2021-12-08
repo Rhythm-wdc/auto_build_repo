@@ -24,33 +24,35 @@ MAINTAINER wangdongchao@staff.hexun.com
 
 #RUN docker pull apache/incubator-doris:build-env-1.3.1
 
-RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz
-RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz.sha512
-RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz
-RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz.sha512
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz.sha512
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz.sha512
 
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz.sha512
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-src.tar.gz 
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-src.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-site.tar.gz.sha512
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.sha512
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz.sha512
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-src.tar.gz 
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-src.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-site.tar.gz.sha512
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.sha512
 
-RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz
-RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.sha256
-RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz
-RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.sha256
+#RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz
+#RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.sha256
+#RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz
+#RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.sha256
 
-RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
-RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.sha256
-RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz
-RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.asc
-RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.sha256
+#RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
+#RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.sha256
+#RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz
+#RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.asc
+#RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.sha256
+
+RUN wget https://dlcdn.apache.org/spark/spark-3.2.0/spark-3.2.0-bin-hadoop3.2.tgz
