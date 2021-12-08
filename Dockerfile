@@ -41,16 +41,16 @@ RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz
 RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.asc
 RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.sha512
 
-https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz
-https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.asc
-https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.sha256
-https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz
-https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.asc
-https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.sha256
+RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz
+RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz.sha256
+RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz
+RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-src.tar.gz.sha256
 
-https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
-https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.asc
-https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.sha256
-https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz
-https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.asc
-https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.sha256
+RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
+RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz.sha256
+RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz
+RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.sha256
