@@ -22,4 +22,21 @@ MAINTAINER wangdongchao@staff.hexun.com
 #RUN docker pull registry.docker-cn.com/apachegriffin/kafka
 #RUN docker pull zookeeper:3.5 
 
-RUN docker pull apache/incubator-doris:build-env-1.3.1
+#RUN docker pull apache/incubator-doris:build-env-1.3.1
+
+RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz
+RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1-src.tar.gz.sha512
+RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz
+RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz.sha512
+
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-aarch64.tar.gz.sha512
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-src.tar.gz 
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-src.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1-site.tar.gz.sha512
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.asc
+RUN wget https://dlcdn.apache.org/hadoop/common/stable/hadoop-3.3.1.tar.gz.sha512
