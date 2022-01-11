@@ -56,5 +56,6 @@ MAINTAINER wangdongchao@staff.hexun.com
 #RUN wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-src.tar.gz.sha256
 
 #RUN wget https://dlcdn.apache.org/spark/spark-3.2.0/spark-3.2.0-bin-hadoop3.2.tgz
-RUN wget https://repo1.maven.org/maven2/io/trino/trino-server/367/trino-server-367.tar.gz
+#RUN wget https://repo1.maven.org/maven2/io/trino/trino-server/367/trino-server-367.tar.gz
+RUN wget https://search.maven.org/remotecontent?filepath=nl/basjes/parse/useragent/yauaa/6.7/yauaa-6.7.jar
 
